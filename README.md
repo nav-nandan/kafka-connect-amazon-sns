@@ -1,4 +1,4 @@
-Amazon SNS Connector
+# Amazon SNS Connector
 
 ## Generated using Maven Archetype (example below)
 
@@ -13,7 +13,7 @@ mvn archetype:generate -B \
 -Dversion=1.0.0
 ```
 
-# Running in development
+## Running in development
 
 ```
 mvn clean package
@@ -21,7 +21,7 @@ export CLASSPATH="$(find target/ -type f -name '*.jar'| grep '\-package' | tr '\
 $CONFLUENT_HOME/bin/connect-standalone $CONFLUENT_HOME/etc/kafka/connect-standalone.properties config/AmazonSNSSinkConnector.properties
 ```
 
-# Running on a Kafka Connect Distributed Cluster
+## Running on a Kafka Connect Distributed Cluster
 
 ```
 curl -X PUT \
