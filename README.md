@@ -1,4 +1,5 @@
 # Amazon SNS Connector
+![amazon_sns_sink_connector_flow](images/amazon_sns_sink_connector_flow.png)
 
 ## Generated using Maven Archetype
 
