@@ -1,4 +1,4 @@
-Welcome to your new Kafka Connect connector!
+Amazon SNS Connector
 
 ## Generated using Maven Archetype (example below)
 
