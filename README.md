@@ -1,6 +1,6 @@
 # Amazon SNS Connector
 
-## Generated using Maven Archetype (example below)
+## Generated using Maven Archetype
 
 ```
 mvn archetype:generate -B \
